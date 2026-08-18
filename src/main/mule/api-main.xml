@@ -46,12 +46,6 @@
     <!-- ============================================== -->
     <!-- API CONSOLE FLOW                               -->
     <!-- ============================================== -->
-    <flow name="api-console" doc:name="API Console Flow">
-        <http:listener config-ref="HTTP_Listener_Config" 
-            path="/console/*" 
-            doc:name="HTTP Listener Console"/>
-        <apikit:console config-ref="netsuite-salesforce-api-config" doc:name="APIKit Console"/>
-    </flow>
 
     <!-- ============================================== -->
     <!-- APIKIT GENERATED FLOWS - ORDERS                -->
